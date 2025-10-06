@@ -46,4 +46,4 @@ blocks:
         - name: Build
           commands:
             - make build
-            - ls
+            - artifact push workflow build/
